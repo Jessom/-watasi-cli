@@ -1,0 +1,21 @@
+{
+  "name": "@watasi/cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": ["cli", "@watasi/cli"],
+  "author": "watasi <jessoncheung@gmail.com>",
+  "bin": {
+    "@watasi/cli": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jessom/watasi-cli"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^5.1.0",
+    "inquirer": "^7.1.0",
+    "which": "^2.0.2"
+  }
+}
