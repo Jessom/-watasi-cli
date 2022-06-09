@@ -26,7 +26,7 @@ program
 
   inquirer.prompt(promptList).then(result => {
     const { url, gitName, name, val } = result.type
-    green(`======开始构建${name}======`)
+    // green(`======开始构建${name}======`)
     const spinner = ora(`开始构建${name}`).start()
     if(!url) {
       red(`暂不支持${name}...`)

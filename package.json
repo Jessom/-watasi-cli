@@ -8,7 +8,7 @@
   ],
   "author": "watasi <jessoncheung@gmail.com>",
   "bin": {
-    "@watasi-cli": "./bin/index.js"
+    "@watasi/cli": "./bin/index.js"
   },
   "repository": {
     "type": "git",
