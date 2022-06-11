@@ -20,7 +20,7 @@ program
 .command('create <projectName>')
 .description('create a project')
 .action(async (projectName, cmd) => {
-  green(`欢迎使用@watasi/cli，轻松构建项目模版！🎉🎉🎉`)
+  green(`👏 👏 👏 欢迎使用@watasi/cli，轻松构建项目模版！`)
   // 检测是否存在同名文件夹
   await checkDir(path.join(process.cwd(), projectName), projectName)
 
